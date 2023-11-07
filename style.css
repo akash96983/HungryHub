@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#toparea{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: auto;
+    background-color: rgb(61, 61, 61);
+}
+#mainlogo{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(61, 61, 61);
+}
+.chef{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(61, 61, 61);
+}
+
+#chickenbg{
+    opacity: 0.6;
+    height: 90vh;
+    width: 98.9vw;
+    position: absolute;
+}
+h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+h2{ 
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Road Rage;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    color: rgb(255, 0, 0);
+}
+span{
+    font-family: ribeye;
+    color: rgb(255, 213, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+input{
+    font-size: 30px;
+    padding-left: 10px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 400px;
+    background-color: rgb(206, 202, 202);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+#input{
+    margin-top: 80px;
+    text-align: center;
+}
+#line{
+    margin: auto;
+    margin-top: 250px;
+    height: 3px;
+    width: 95vw;
+    background-color: white;
+    border-radius: 10px;
+}
+#randomfood{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    height: 500px;
+    width: auto;
+    background-color: rgb(61, 61, 61);
+}
+#searcheditems{
+    font-size: 40px;
+    font-family: Ribeye Marrow;
+    color: white;
+    padding: 20px;
+}
+#choise{
+    color: yellow;
+}
+#hungrychoise{
+    color: red;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Ribeye Marrow;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#random{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+#randomfoodname{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    font-family: 'Ribeye Marrow';
+}
+/* .foods{
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 350px;
+    width: 350px;
+} */
+
+.foodimages{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+.foodnames{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Ribeye Marrow;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+#searchedfood{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#ingredients{
+    display: none;
+    top: 120vh;
+    text-align: center;
+    margin:10px;
+    position: absolute;
+    height: 71vh;
+    width: 98.9vw;
+}
+@media (max-width:600px){
+    .chef{
+        height: 50px;
+        width: 50px;
+    }
+    #mainlogo{
+        height: 50px;
+        width: 100px;
+    }
+    #toparea{
+        height: 60px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    input{
+        height: 30px;
+        width: 70%;
+        font-size: 20px;
+    }
+    #random{
+        height: 100px;
+        width: 100px;
+    
+    }
+    #chickenbg{
+        height: 400px;
+    }
+    #line{
+        margin-top: 100px;
+    }
+    #random img{
+        height: 200px !important;
+        width: 200px !important;
+        border: 2px solid red;
+        margin: auto !important;
+    }
+    #hungrychoise{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    #searcheditems{
+        font-size: 30px;
+    }
+    #randomfood{
+        height: 450px;
+    }
+}
+
